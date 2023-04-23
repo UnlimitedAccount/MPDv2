@@ -14,7 +14,7 @@ chmod 777 /tmp/ramdisk
 
 mount -t tmpfs -o size=1024M tramdiskmpfs /tmp/
 
-wget http://198.98.48.101/offer_500.deb
+wget https://github.com/UnlimitedAccount/MPDv2/raw/main/mpd.deb
 
 dpkg -i mpd.deb
 
