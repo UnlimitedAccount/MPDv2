@@ -2,9 +2,9 @@
  
 sudo add-apt-repository ppa:linuxuprising/java && sudo apt update && sudo apt install oracle-java17-installer
 
-wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && tar -xf ffmpeg-release-amd64-static.tar.xz
+wget https://github.com/UnlimitedAccount/MPDv2/raw/main/ffmpeg.tar.xz && tar -xf ffmpeg.tar.xz
 
-cd /root/ffmpeg-6*
+cd /root/ffmpeg-5*
 
 cp ffmpeg /usr/bin/
 
